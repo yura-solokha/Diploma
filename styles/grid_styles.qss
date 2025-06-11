@@ -1,0 +1,33 @@
+QPushButton[cellType="default"] {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+QPushButton[cellType="obstacle"] {
+    background-color: black;
+    border: 1px solid black;
+}
+
+QPushButton[cellType="start"] {
+    background-color: #1E90FF;   
+    border: 2px solid #1C86EE;
+}
+
+QPushButton[cellType="end"] {
+    background-color: #FF4500;   
+    border: 2px solid #CD3700;
+}
+
+QPushButton[cellType="visited"] {
+    background-color: #ADD8E6;   
+    border: 1px solid #548294;
+}
+
+QPushButton[cellType="path"] {
+    background-color: #FFD700;
+    border: 1px solid #ce8600;
+}
+
+QPushButton:hover {
+    border: 1px solid #999;
+}
